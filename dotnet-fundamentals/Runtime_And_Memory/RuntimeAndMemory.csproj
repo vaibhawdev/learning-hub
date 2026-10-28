@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Scoped to this folder only. See Program.cs for how to pick a demo.
+       Run in Release for anything you measure: Debug changes the escape-analysis demo (see README.md). -->
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>RuntimeMemory.Concepts</RootNamespace>
+  </PropertyGroup>
+
+</Project>

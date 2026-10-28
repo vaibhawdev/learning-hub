@@ -1,0 +1,28 @@
+# .NET build output
+bin/
+obj/
+.vs/
+*.user
+*.suo
+
+# Node / Python
+node_modules/
+__pycache__/
+.venv/
+venv/
+
+# Secrets and local config
+.env
+.env.*
+*.pfx
+*.key
+appsettings.Development.json
+appsettings.Local.json
+
+# Claude Code local settings (machine-specific paths)
+.claude/settings.local.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
